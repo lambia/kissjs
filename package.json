@@ -1,0 +1,17 @@
+{
+  "name": "kissjs",
+  "version": "0.0.1",
+  "description": "Let's make JS simple again!",
+  "main": "index.js",
+  "author": "Luca Lambiase",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1"
+  }
+}
